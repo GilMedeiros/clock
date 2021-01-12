@@ -31,7 +31,7 @@
              style="background-color:#512888;
                     color:#eee;">
             <h3 class="panel-title"
-                style="font-size:150%;">Time Until Classic Retires</h3>
+                style="font-size:150%;">Descontos válidos até</h3>
         </div>
         <div class="panel-body"
              style="color:#512888;">
@@ -44,19 +44,19 @@
                 <div class='col-xs-12 col-sm-8'> <!-- days hours min sec cols -->
                     <div class='col-xs-3'>
                         <h2 id='days'></h2>
-                        <p><strong>Days</p></strong>
+                        <p><strong>Dias</p></strong>
                     </div>
                     <div class='col-xs-3'>
                         <h2 id='hours'></h2>
-                        <p><strong>Hours</p></strong>
+                        <p><strong>Horas</p></strong>
                     </div>
                     <div class='col-xs-3'>
                         <h2 id='minutes'></h2>
-                        <p><strong>Minutes</p></strong>
+                        <p><strong>Minutos</p></strong>
                     </div>
                     <div class='col-xs-3'>
                         <h2 id='seconds'></h2>
-                        <p><strong>Seconds</p></strong>
+                        <p><strong>Segundos</p></strong>
                     </div>
                 </div>
                 <div class='hidden-xs col-sm-1'></div> <!-- spacer -->
@@ -68,7 +68,7 @@
     <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
 
     <script>
-        canvasDateString = 'Dec 31 2015';
+        canvasDateString = 'Jan 14 2021';
 
         cDate = new Date(canvasDateString);
         function getDiffObj(date1, date2){
@@ -78,8 +78,8 @@
             date2 = date2 || new Date();
             diff = Math.abs(date1 - date2)
 
-            dRatio = 86400000
-            hRatio = dRatio / 24
+            dRatio = 2
+            hRatio = dRatio / 9
             mRatio = hRatio / 60
             sRatio = mRatio / 60
 
