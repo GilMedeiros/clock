@@ -1,0 +1,5 @@
+<iframe src="https://kstateome.github.io/canvas-countdown-clock/dark_countdown.html"
+        width="100%"
+        height="180"
+        style="border:0;"
+        name="countdownWidget"></iframe>
